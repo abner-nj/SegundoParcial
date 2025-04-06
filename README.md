@@ -1,4 +1,4 @@
-# SegundoParcial
+﻿# SegundoParcial
 proyecto de lista enlazada de consola en java
 
 Clase Nodo
@@ -51,3 +51,32 @@ Paso	nodoTemp	next	nodoAnterior (lo que ya está invertido)
                                     [3] -> [2] -> [1] -> null
 
 
+metodo contains 
+
+ejemplo:
+
+head → [1 | •] → [5 | •] → [7 | null]
+
+valores de cada nodo 
+data (iquierda del bloque)
+•  apunta al siguiente
+el ultimo elemento apunta a null
+
+nodoTemp apunta al primer nodo: [1 | •]
+
+¿1 == 5?
+
+Avanza al siguiente nodo: [5 | •]
+
+¿5 == 5? 
+
+Retorna true.
+
+Ejemplo 2: contains(7)
+
+[1 | •] → ❌
+
+[5 | •] → ❌
+
+[7 | null] → si
+Retorna true.
