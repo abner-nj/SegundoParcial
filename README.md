@@ -39,19 +39,15 @@ Nodo nodoAnterior = null;   -> apunta a null por que el nuevo ultimo elemento ti
 nodo nodoTemp = head; -> nodo de la lista que se estara trabajando 
 Nodo next; -> nodo temporal que servira para no perder al siguiente cuando se cambian las referencias 
 
-
+ejemplo:
 en el ciclo:
 
-[Paso  |nodoTemp    |	next	|   nodoAnterior (lo que ya está invertido)   |]
-[1     |   [1]	    |   [2]	|             null                            |]                           
-[      |            |       |     [1] -> null                             |]
-[2     |   [2]	    |  [3]	|           [1] -> null                       |]
-[      |            |       |     [2] -> [1] -> null                      |]
-[3     |   [3]      | null	|       [2] -> [1] -> null                    |]
-[      |            |       |     [3] -> [2] -> [1] -> null               |]
+![](https://github.com/abner-nj/SegundoParcial/blob/main/ciclo.JPG)
 
 
-metodo contains 
+
+
+metodo contains: 
 
 ejemplo:
 
