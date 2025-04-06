@@ -42,13 +42,13 @@ Nodo next; -> nodo temporal que servira para no perder al siguiente cuando se ca
 
 en el ciclo:
 
-Paso	nodoTemp	next	nodoAnterior (lo que ya está invertido)
-1      	[1]	        [2]	             null                            
-                                   [1] -> null
-2	    [2]	        [3]	           [1] -> null
-                                   [2] -> [1] -> null
-3	    [3]      	null	       [2] -> [1] -> null
-                                    [3] -> [2] -> [1] -> null
+[Paso  |nodoTemp    |	next	|   nodoAnterior (lo que ya está invertido)   |]
+[1     |   [1]	    |    [2]	|             null                            |]                           
+[      |            |           |     [1] -> null                             |]
+[2     |   [2]	    |    [3]	|           [1] -> null                       |]
+[      |            |           |     [2] -> [1] -> null                      |]
+[3     |   [3]      | 	null	|       [2] -> [1] -> null                    |]
+[      |            |           |     [3] -> [2] -> [1] -> null               |]
 
 
 metodo contains 
@@ -74,9 +74,9 @@ Retorna true.
 
 Ejemplo 2: contains(7)
 
-[1 | •] → ❌
+[1 | •] → no
 
-[5 | •] → ❌
+[5 | •] → no
 
 [7 | null] → si
 Retorna true.
